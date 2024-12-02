@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elecciones</title>
+</head>
+<body>
+    <h1>Elecciones de Representante de Aprendices</h1>
+
+    <div id="formulario-sesion" />
+            <h2>Iniciar Sesión</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="button" id="iniciar-sesion-btn" value="Iniciar Sesión">
+    </div>
+
+    <div id="contenido-principal" style="display: none;">
+        <div id="candidatos"></div>
+        <button id="iniciarElecciones">Iniciar Elecciones</button>
+        <button id="cerrarElecciones">Cerrar Elecciones</button>
+        <div id="resultados" style="display:none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
